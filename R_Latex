@@ -1,0 +1,71 @@
+\alpha   % α
+
+\beta    % β
+
+\gamma   % γ
+
+\delta   % δ
+
+\sum     % Σ
+
+\prod    % Π
+
+\sqrt    % √
+
+\infty   % ∞
+
+\approx  % ≈
+
+\neq     % ≠
+
+x_i      % Subscript
+
+x^2      % Superscript
+
+\frac{a}{b}  % a/b
+
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}  % Matrix
+
+\begin{pmatrix}
+x_1 \\
+x_2
+\end{pmatrix}  % Vector
+
+\begin{equation}
+y = mx + b
+\end{equation}  % Numbered equation
+
+\begin{align}
+x &= y + z \\
+a &= b + c
+\end{align}  % Aligned equations
+
+\textbf{bold}    % Bold text
+\textit{italic}  % Italic text
+
+\begin{itemize}
+  \item Item 1
+  \item Item 2
+\end{itemize}  % Unordered list
+
+\begin{enumerate}
+  \item Item 1
+  \item Item 2
+\end{enumerate}  % Ordered list
+
+\begin{verbatim}
+# Code goes here
+\end{verbatim}  % Verbatim text
+
+```{r}
+x <- 1:10
+y <- x^2
+equation <- r'$y = x^2$'
+```
+
+The equation is `r equation`.
+
+
